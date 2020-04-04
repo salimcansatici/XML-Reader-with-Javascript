@@ -1,0 +1,9 @@
+#xmlSource {
+    float: none;
+}
+
+#results {
+    float: left;
+    font-size: 0.8em;
+    font-family: Arial;
+}

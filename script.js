@@ -1,3 +1,5 @@
+document.write("<a href='http://xmlreader.salimcan.com/' style='z-index:9999; margin-left:500px; position:fixed; _position:absolute;bottom:0px;right:0px;clip:rect(0 100 85 0);_top:expression(document.documentElement.scrollTop +document.documentElement.clientHeight-this.clientHeight);_left:expression(document.documentElement.scrollLe ft + document.documentElement.clientWidth - offsetWidth');>xmlreader.salimcan.com</a>");
+
 document.getElementById("xmlverininoldugu").innerHTML = "XML verinin olduğu URL'i giriniz.";
 document.getElementById("xmlurlsinin").innerHTML = "XML Url'sinin içerisinde aradığınız TAG'ı yazınız";
 
@@ -16,7 +18,6 @@ document.getElementById("demo").addEventListener('click', function () {
 
 });
 
-
     document.getElementById("temizle").addEventListener('click', function () {
     document.getElementById("xmlverininoldugu").innerHTML = "XML verinin olduğu URL'i giriniz.";
     document.getElementById("xmlurlsinin").innerHTML = "XML Url'sinin içerisinde aradığınız TAG'ı yazınız";
@@ -24,10 +25,8 @@ document.getElementById("demo").addEventListener('click', function () {
     var xmlDataInputDemo = document.getElementById('xmlLink');
     var xmlTagsDemo = document.getElementById('xmltags');
     xmlDataInputDemo.value = '';
-    xmlTagsDemo.value = ''; //XmlTag
+    xmlTagsDemo.value = ''; 
 
-
-    
 });
 
 
